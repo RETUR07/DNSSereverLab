@@ -7,8 +7,6 @@ struct Node
 	int priority;
 	struct Node* L;
 	struct Node* R;
-
-
 };
 
 struct Node* InitTreap(char* key, unsigned int IP);
